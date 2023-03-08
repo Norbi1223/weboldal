@@ -49,6 +49,7 @@
                 <th scope="col">Hőmérséklet</th>
                 <th scope="col">Magasság</th>
                 <th scope="col">Dátum</th>
+                <th scope="col" class="text-center">Törlés</th>
               </tr>
             </thead>
             <tbody>
@@ -59,6 +60,7 @@
                 <td>{{$item->homer}}°C</td>
                 <td>{{$item->magas}} mm</td>
                 <td>{{$item->datum}}</td>
+                <td class="text-center"><button class="btn btn-danger w-100" id="gomb_{{ $item->ID }}" onclick="Torles({{ $item->ID }});">törlés</button></td>
               </tr>
               @endforeach
             </tbody>
@@ -66,6 +68,27 @@
         </div>
     </div>
 </div>
+<script>
+  function Torles(tid){
+      //$("#sor_"+tid).remove();
+      $.ajax({
+          url:"./adatok-torles",
+          type:"POST",
+          headers:{
+              "X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")
+          },
+          data:{"tid":tid},
+          cache:false,
+          async:false,
+          beforeSend:function(){
+              $("#gomb_"+tid).attr("disabled",true);
+          },
+          success:function(){
+              $("#sor_"+tid).remove();
+          }
+      });
+  }
+</script>
 @endsection
 
 

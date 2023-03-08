@@ -14,5 +14,10 @@ class lista extends Controller
         $atlaghomer = DB::table('adatok')->avg('homer');
         return view('lista', ["adat" => $adat] , ["atlagpara" => $atlagpara])->with(["atlaghomer" => $atlaghomer]);
     }
+    public function Torles(Request $req){
+        DB::delete("DELETE FROM adatok WHERE ID=?",[$req->tid]);
+        $data['error'] = false;
+        return response()->json($data);
+    }
 
 }

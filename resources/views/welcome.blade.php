@@ -49,7 +49,7 @@
           <div class="col p-2">
 
             <h3>Hogyan működik?</h3>
-            A drón egy arduino vezérelt gép ami irányítás gyanánt egy telefont vagy bármi készüléket, ami el tudja érni az internetet. A gépen 4 servo motor van amiből 2 a fel- és leszálláshoz szükséges, 2 pedig a balra és a jobbra kanyarodáshoz kell. A hajtást egy elektromos motor segítségével fogjuk végezni egy motorvezérlő modulon keresztül. A weboldalon van egy irányításfül, amit két féle képpen lehet használni. Vagy a képernyőn látható gombok segítségével vagy a "WASD" gombok használatával. A weboldal továbbküldi az adatokat az arduinonak és az írányítja a drón komponenseit.
+            A drón egy arduino vezérelt gép ami irányítás gyanánt egy telefont vagy bármi készüléket, ami el tudja érni az internetet. A gépen 4 servo motor van amiből 2 a fel- és leszálláshoz szükséges, 2 pedig a balra és a jobbra kanyarodáshoz kell. A hajtást egy elektromos motor segítségével fogjuk végezni egy motorvezérlő modulon keresztül. A weboldalon van egy irányításfül, amit két féle képpen lehet használni. Vagy a képernyőn látható gombok segítségével vagy a "WASD" gombok használatával. A weboldal továbbküldi az adatokat az arduinonak és az írányítja a drón komponenseit. <br> <br>
           </div>
         </div>
     </div>
@@ -64,9 +64,10 @@
 
             <h3>Felhasználási módok</h3>
             <h6 class="m-1">&#127803; <span class="fst-italic">Mezőgazdaság</span></h6>
-            Ipari mezőgazdaságban, illetve kisebb növénnyel foglalkozó cégeknél, melyek üvegház segítségével növényeket termelnek, így az adatok segítségével és azok felhasználásával a termés minőségét is növelhetjük adott esetekben.<br>
+            Ipari mezőgazdaságban, illetve kisebb növénnyel foglalkozó cégeknél, melyek üvegház segítségével növényeket termelnek, így az adatok segítségével és azok felhasználásával a termés minőségét is növelhetjük adott esetekben.<br> <br>
             <h6 class="m-1">&#9925; <span class="fst-italic">Időjárás</span></h6>
             Egy adott terület időjárásának illetve a levegőminőségének a figyelésére is alkalmas lehet a megfelelő kezekben. Ezen funkciók segítségével akár az időjárást is előre lehet jelezni és a globális felmelegedés jeleit is lehet nézni. Amivel akár segíthetünka lokális környezetnek és embereknek a környéken.<br>
+            <br>
 
 
 
