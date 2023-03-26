@@ -20,22 +20,18 @@
     </div>
 </nav>
   
-<form method="POST">
-  @csrf
 <div class="container">
   <div class="row mb-2  mt-2" style="height: 40%">
-    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient"><span style="font-family:'Londrina Shadow';font-size:50px ">LED BE</span></button></div>
-    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient"><span style="font-family:'Londrina Shadow';font-size:50px ">W</span></button></div>
-    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100 bg-gradient"><span style="font-family:'Londrina Shadow';font-size:50px ">LED KI</span></button></div>
+    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient" id="gyors" name="gyors"><span style="font-family:'Londrina Shadow';font-size:50px ">GYORSÍT</span></button></div>
+    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient" id="fel" name="fel"><span style="font-family:'Londrina Shadow';font-size:50px ">FEL</span></button></div>
+    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100 bg-gradient" id="lassit" name="lassit"><span style="font-family:'Londrina Shadow';font-size:50px ">LASSÍT</span></button></div>
   </div>
   <div class="row" style="height: 40%">
-    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient"><span style="font-family:'Londrina Shadow';font-size:50px ">A</span></button></div>
-    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient"><span style="font-family:'Londrina Shadow';font-size:50px ">S</span></button></div>
-    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient"><span style="font-family:'Londrina Shadow';font-size:50px ">D</span></button></div>
+    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient" id="bal" name="bal"><span style="font-family:'Londrina Shadow';font-size:50px ">BAL</span></button></div>
+    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient" id="le" name="le"><span style="font-family:'Londrina Shadow';font-size:50px ">LE</span></button></div>
+    <div class="col"><button type="button" class="btn btn-dark text-white w-100 h-100  bg-gradient" id="jobb" name="jobb"><span style="font-family:'Londrina Shadow';font-size:50px ">JOBB</span></button></div>
   </div>
 </div>
-
-</form>
 
 
 
