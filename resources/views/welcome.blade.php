@@ -69,8 +69,6 @@
             Egy adott terület időjárásának illetve a levegőminőségének a figyelésére is alkalmas lehet a megfelelő kezekben. Ezen funkciók segítségével akár az időjárást is előre lehet jelezni és a globális felmelegedés jeleit is lehet nézni. Amivel akár segíthetünka lokális környezetnek és embereknek a környéken.<br>
             <br>
 
-
-
           </div>
         </div>
     </div>
@@ -90,7 +88,7 @@
             &#10068; Milyen adatokat küld az oldalra? <br>
             &#10069; A drón modularítása miatt szinte bármit lehet mérni! <br>
             &#10068; Hogyan lehet irányítani? <br>
-            &#10069; Telefonon keresztül! Tudj meg többet <a href="http://localhost/szakdolgozat/public/iranyitas"> itt</a>!<br><br>
+            &#10069; Telefonon keresztül! Lásd <a href="http://localhost/szakdolgozat/public/iranyitas"> itt</a>!<br><br>
           </div>
         </div>
     </div>
