@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use DB;
 
 class iranyitas extends Controller
 {
@@ -11,8 +12,8 @@ class iranyitas extends Controller
 
         return view('iranyitas');
     }
-    public function iranyitas_be(){
-
+    public function iranyitas_be(Request $req){
         return view('iranyitas');
+        
     }
 }
