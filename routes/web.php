@@ -17,3 +17,11 @@ Route::post('/adatok',[lista::class, 'rogzites']);
 
 Route::get('/iranyitas',[iranyitas::class, 'iranyitas_ki']);
 Route::post('/iranyitas',[iranyitas::class, 'iranyitas_be']);
+
+
+Route::get('/motorBekapcsolas',[iranyitas::class,'motorBekapcsolas']);
+Route::get('/motorLekapcsolas',[iranyitas::class,'motorLekapcsolas']);
+Route::get('/fel',[iranyitas::class,'fel']);
+Route::get('/le',[iranyitas::class,'le']);
+Route::get('/bal',[iranyitas::class,'bal']);
+Route::get('/jobb',[iranyitas::class,'jobb']);
