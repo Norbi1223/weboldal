@@ -21,10 +21,10 @@ class lista extends Controller
         return response()->json($data);
     }
     public function rogzites(Request $req1){
-        DB::insert("INSERT INTO adatok(para, homer, magas,  minoseg)
-         VALUES (?,?,?,?)",$req1->para,$req1->hom,$req1->tav,$req1->levego);
+        DB::insert("INSERT INTO adatok(para, homer, magas, minoseg,datum)
+         VALUES (?,?,?,?,?)",[$req1->para,$req1->hom,$req1->tav,$req1->levego,date('Y-m-d H:i:s')]);
         $data['error']=false;
-        $data['msg']="rözítés sikeres!";
+        $data['msg']="rögzítés sikeres!";
         return response()->json($data);
         
     }
