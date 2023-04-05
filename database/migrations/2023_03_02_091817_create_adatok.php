@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('para');
             $table->integer('homer');
             $table->integer('magas');
+            $table->integer('minoseg');
             $table->dateTime('datum', $precision = 0);
         });
     }

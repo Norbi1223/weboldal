@@ -27,24 +27,4 @@ class iranyitas extends Controller
         $data['valasz'] = file_get_contents($url);
         return response()->json($data);
     }
-    public function fel(){
-        $url = env('WEMOS_IP')."/fel";
-        $data['valasz'] = file_get_contents($url);
-        return response()->json($data);
-    }
-    public function le(){
-        $url = env('WEMOS_IP')."/le";
-        $data['valasz'] = file_get_contents($url);
-        return response()->json($data);
-    }
-    public function bal(){
-        $url = env('WEMOS_IP')."/bal";
-        $data['valasz'] = file_get_contents($url);
-        return response()->json($data);
-    }
-    public function jobb(){
-        $url = env('WEMOS_IP')."/jobb";
-        $data['valasz'] = file_get_contents($url);
-        return response()->json($data);
-    }
 }

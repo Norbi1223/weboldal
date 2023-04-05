@@ -31,12 +31,14 @@
               <tr>
                 <th scope="col">Páratartalom</th>
                 <th scope="col">Hőmérséklet</th>
+                <th scope="col">Levegőminőség</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>{{$atlagpara}}%</td>
-                <td>{{$atlaghomer}}°C</td>
+                <td>{{$atlagpara}} %</td>
+                <td>{{$atlaghomer}} °C</td>
+                <td>{{$atlagminoseg}} mg/m<sup>3</sup></td>
               </tr>
             </tbody>
           <table>
@@ -48,6 +50,7 @@
                 <th scope="col">Páratartalom</th>
                 <th scope="col">Hőmérséklet</th>
                 <th scope="col">Magasság</th>
+                <th scope="col">Levegőminőség</th>
                 <th scope="col">Dátum</th>
                 <th scope="col" class="text-center">Törlés</th>
               </tr>
@@ -59,6 +62,7 @@
                 <td>{{$item->para}}%</td>
                 <td>{{$item->homer}}°C</td>
                 <td>{{$item->magas}} mm</td>
+                <td>{{$item->minoseg}} mg/m<sup>3</sup></td>
                 <td>{{$item->datum}}</td>
                 <td class="text-center"><button class="btn btn-danger w-100" id="gomb_{{ $item->ID }}" onclick="Torles({{ $item->ID }});">törlés</button></td>
               </tr>
